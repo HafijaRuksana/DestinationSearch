@@ -1,0 +1,21 @@
+.place-card {
+  list-style-type: none;
+  width: 200px;
+  margin: 10px;
+}
+.place-image {
+  width: 150px;
+  height: 150px;
+}
+.place-name {
+  color: #000000;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .place-name {
+    font-size: 20px;
+  }
+}
